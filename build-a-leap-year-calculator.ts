@@ -1,6 +1,6 @@
 // Build a leap year calculator function
 let year = 2025;
-const isLeapYear = (year: number) => {
+const isLeapYear = (year: number): string => {
   return (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0
     ? `${year} is a leap year.`
     : `${year} is not a leap year.`;
